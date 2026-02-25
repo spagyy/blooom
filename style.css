@@ -1,0 +1,15 @@
+.btn{
+    color: white;
+}
+
+.rounded{
+    height: 80px;
+    width: 120px;
+}
+
+.btn-outline-success{
+    background-color: #ffffff;
+    border-color: #aa01ff;
+    color: #aa01ff;
+
+}
