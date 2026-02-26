@@ -11,5 +11,8 @@
     background-color: #ffffff;
     border-color: #aa01ff;
     color: #aa01ff;
+}
 
+.d-flex{
+   height: 640px;
 }
