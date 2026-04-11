@@ -204,3 +204,286 @@ h1, h2, .serif {
     background: #800020;
     color: white;
 }
+.hero-section-alt {
+    background-color: #fffdfd;
+    border-radius: 40px;
+    padding: 60px;
+    margin: 40px 0;
+}
+
+.serif-font {
+    font-family: 'Playfair Display', serif;
+    color: #3a1d24;
+}
+
+.flower-main-img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.img-container-alt {
+    position: relative;
+    display: inline-block;
+}
+
+.play-button-overlay {
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    z-index: 5;
+}
+
+.btn-custom-pill {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 8px 8px 8px 25px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3a1d24;
+    font-weight: 600;
+}
+
+.btn-icon-circle {
+    background-color: #a0153e; /* Ta tvá vínová */
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.testimonial-img-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-line-sep {
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, #ddd, transparent);
+    margin: 15px auto;
+}
+
+.quote-text-serif {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #3a1d24;
+}
+
+.author-label {
+    color: #a0153e;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.card-maroon {
+    background-color: #a0153e;
+    border-radius: 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-white {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 240px;
+}
+
+.card-soft-pink {
+    background-color: #fbc7d4; /* Trochu sytější růžová pro kontrast */
+    border-radius: 20px;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+/* Srdcový výřez nebo maska pro fotku vpravo */
+.rounded-custom-heart {
+    border-radius: 100px 100px 20px 20px; /* Stylizace k fotce */
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+
+/* Úprava fontu pro nadpisy v sekcích */
+.serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Responsivita pro menší obrazovky */
+@media (max-width: 991px) {
+    .card-white, .card-soft-pink {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .d-flex.align-items-end {
+        flex-direction: column;
+        align-items: center !important;
+    }
+}
+.circle-img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.main-circle-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Mírný posun nahoru aby to vypadalo jako na obrázku */
+    border: 15px solid #fdf2f4;
+}
+
+.floating-label {
+    position: absolute;
+    bottom: 40%;
+    right: -20px;
+    background: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    color: #3a1d24;
+}
+
+.small-circle-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.small-circle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deco-tulip {
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    width: 100px;
+    opacity: 0.8;
+    transform: rotate(10deg);
+}
+
+/* Tracking (proklad) pro linky */
+.tracking-widest {
+    letter-spacing: 0.1em;
+}
+
+/* Úprava pro mobil */
+@media (max-width: 991px) {
+    .main-circle-img {
+        width: 250px;
+        height: 250px;
+    }
+    .gifting-section .row {
+        text-align: center;
+    }
+    .gifting-section .d-flex {
+        align-items: center !important;
+        margin-top: 30px;
+    }
+    .floating-label {
+        right: 10px;
+    }
+}
+.footer-bloom {
+    background-color: #a0153e; /* Ta tvá hlavní vínová */
+    color: white;
+    overflow: hidden;
+}
+
+/* Jemná svislá linka (jen na desktopu) */
+@media (min-width: 992px) {
+    .border-start-custom {
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    padding-left: 5px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    background: white;
+    color: #a0153e;
+}
+
+/* Velký text dole */
+.footer-bottom-text {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+}
+
+.marquee {
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+    user-select: none;
+}
+
+.marquee span {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.2; /* Ten efekt vybledlého textu */
+    letter-spacing: 10px;
+}
+
+/* Úprava barev pro Clutch review */
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
