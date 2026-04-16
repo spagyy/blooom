@@ -1,6 +1,10 @@
 :root {
     --bloom-pink: #FDE7F0;
     --bloom-maroon: #8A1538;
+    background-color: #8A1538; /* Ta tmavá vínová z předlohy */
+    padding: 20px; /* Toto vytvoří ten "rám" kolem bílého obsahu */
+    font-family: 'Inter', sans-serif;
+
 }
 
 body {
@@ -487,3 +491,4 @@ h1, h2, .serif {
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5) !important;
 }
+
