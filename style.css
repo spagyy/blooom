@@ -333,7 +333,7 @@ h1, h2, .serif {
     font-family: 'Playfair Display', serif;
 }
 
-/* Responsivita pro menší obrazovky */
+/* Responsivita pro mobily */
 @media (max-width: 991px) {
     .card-white, .card-soft-pink {
         width: 100%;
